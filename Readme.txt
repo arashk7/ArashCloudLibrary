@@ -1,1 +1,2 @@
-This is the ArashCloudLibrary
+ArashCloudLibrary is a small API tool to work with PointCloudLibrary as convenient as possible.
+Its main concentration is how to match a couple of different pointcloud on a main pointcloud and making realtime mesh.
