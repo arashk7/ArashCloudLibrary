@@ -1,2 +1,5 @@
-ArashCloudLibrary is a small library to work with PointCloudLibrary as convenient as possible.
-Its main concentration is how to match a couple of different pointclouds into a main pointcloud and also realtime meshing.
+I had a short collaboration with ShineTech company which was about recording a 3D movie by using multiple rangefinder cameras. 
+as a pioneer of this kind of technologies, we can mention Microsoft 3D movies and you can find many clips about their project on youtube.
+all in all this collaboration made me start a project about reaching their technology in the basics level. ACL right now is able to do some basics with as easy as possible function and API. meanwhile, PCL is a leading library in this project and has the ability to process a point clouds in many ways, but in ACL we just used some of the functions which cover our needs.
+ACL is a small library to work with PCL as convenient as possible.
+Its main concentration is how to match a couple of different point clouds into the main point cloud and also real-time meshing.
