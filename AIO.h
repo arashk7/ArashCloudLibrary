@@ -20,9 +20,8 @@ namespace Arash
 		class AIO
 		{
 		public:
-			AIO();
-			~AIO();
-			void LoadPCD(std::string file_name);
+			
+			int LoadPCD(std::string file_name, pcl::PointCloud<pcl::PointXYZ>::Ptr output);
 			int LoadPLY(std::string file_name, pcl::PointCloud<pcl::PointXYZ>::Ptr output);
 		};
 

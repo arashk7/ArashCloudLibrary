@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Arash::Filter::AFilter">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>AFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arash::IO::AIO">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AIO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arash::Cloud::ACloud">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="Arash::Cloud::ACloud::PointType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ACloud.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="Arash::Cloud::ACloud::PointNT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ACloud.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEIAAAAEAAABAAAAgAEAAAAUAAAAAEABAAABA=</HashCode>
+      <FileName>ACloud.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

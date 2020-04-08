@@ -74,7 +74,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;..\opencv\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;D:\Ptools\opencv-3.0\build\install\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -87,7 +87,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;..\opencv\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;D:\Ptools\opencv-3.0\build\install\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -102,7 +102,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;..\opencv\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;D:\Ptools\opencv-3.0\build\install\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -119,7 +119,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;..\opencv\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Program Files\PCL 1.8.1\3rdParty\Eigen\eigen3\;D:\Program Files\PCL 1.8.1\3rdParty\FLANN\include;D:\Program Files\PCL 1.8.1\3rdParty\Qhull\include;D:\Program Files\PCL 1.8.1\3rdParty\Boost\include\boost-1_64;D:\Program Files\PCL 1.8.1\3rdParty\VTK\include\vtk-8.0;D:\Program Files\PCL 1.8.1\include\pcl-1.8\;D:\Ptools\opencv-3.0\build\install\include</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
@@ -139,6 +139,9 @@
     <ClInclude Include="ACloud.h" />
     <ClInclude Include="AFilter.h" />
     <ClInclude Include="AIO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

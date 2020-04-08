@@ -12,14 +12,14 @@
 #include <pcl/surface/poisson.h>
 #include <pcl/surface/texture_mapping.h>
 #include <pcl/filters/voxel_grid.h>
-
+//#include "AIO.h"
 
 namespace Arash
 {
 	namespace Cloud
 	{
 
-		class ACloud
+		class ACloud 
 		{
 		public:
 			ACloud();
@@ -29,16 +29,15 @@ namespace Arash
 
 			pcl::PointCloud<PointType>::Ptr cloud;
 			pcl::PointCloud<PointNT>::Ptr normal;
-			virtual ACloud *Clone();
-			virtual void Release();
-			virtual int LoadPCD(std::string file_name);
-			virtual int LoadPLY(std::string file_name);
+			ACloud *Clone();
+			void Release();
+			int LoadPCD(std::string file_name);
+			int LoadPLY(std::string file_name);
 			
-			virtual void Merge(ACloud  *input_cloud);
-			virtual void Translate(float x, float y, float z);
-			virtual void Rotate(float t_x, float t_y, float t_z);
+			void Merge(ACloud  *input_cloud);
+			void Translate(float x, float y, float z);
+			void Rotate(float t_x, float t_y, float t_z);
 
-			
 		};
 	}
 }
